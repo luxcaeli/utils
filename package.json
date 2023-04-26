@@ -1,0 +1,35 @@
+{
+  "name": "skylight-utils",
+  "version": "0.0.1",
+  "main": "lib/cjs/index.js",
+  "author": "vsnm25 <vsnm25@gmail.com> (https://github.com/vsnm25)",
+  "license": "MIT",
+  "files": [
+    "lib"
+  ],
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "rimraf lib && yarn build:rollup && yarn build:tsc",
+    "build:rollup": "rollup -c",
+    "build:tsc": "tsc -p tsconfig.esm.json"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.21.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.0",
+    "@babel/plugin-transform-runtime": "^7.21.0",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-typescript": "^7.21.0",
+    "@rollup/plugin-babel": "^6.0.3",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@typescript-eslint/parser": "^5.54.1",
+    "eslint": "^8.36.0",
+    "eslint-config-skylight": "^0.3.5",
+    "rollup": "^3.19.1",
+    "typescript": "^4.9.5"
+  },
+  "directories": {
+    "lib": "lib"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "esModuleInterop": true,
+    "jsx": "react-jsx",
+    "lib": ["DOM", "ESNext"],
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "outDir": "lib",
+    "skipLibCheck": true,
+    "strict": true,
+    "target": "ES5"
+  },
+  "include": ["src", "rollup.config.mjs"],
+  "exclude": ["node_modules", "lib"]
+}
