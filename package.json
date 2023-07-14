@@ -12,7 +12,9 @@
     "build": "rimraf lib && yarn build:rollup && yarn build:tsc",
     "build:rollup": "rollup -c",
     "build:tsc": "tsc -p tsconfig.esm.json",
-    "test": "jest"
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "test:ci": "jest --coverage"
   },
   "dependencies": {
     "@babel/runtime": "^7.21.0"
