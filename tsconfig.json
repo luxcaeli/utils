@@ -10,8 +10,9 @@
     "outDir": "lib",
     "skipLibCheck": true,
     "strict": true,
-    "target": "ES5"
+    "target": "ES5",
+    "baseUrl": "."
   },
-  "include": ["src", "rollup.config.mjs"],
+  "include": ["src", "rollup.config.mjs", "jest.config.js"],
   "exclude": ["node_modules", "lib"]
 }

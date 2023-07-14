@@ -14,6 +14,13 @@ module.exports = {
     },
     project: "./tsconfig.json",
   },
+  overrides: [
+    {
+      files: ["src/*.spec.ts"],
+      plugins: ["jest"],
+      extends: ["plugin:jest/recommended"]
+    }
+  ],
   rules:{
     "import/prefer-default-export": "off",
     "import/no-extraneous-dependencies": "off"
