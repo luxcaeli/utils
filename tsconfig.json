@@ -14,5 +14,5 @@
     "baseUrl": "."
   },
   "include": ["src", "rollup.config.mjs", "jest.config.js"],
-  "exclude": ["node_modules", "lib"]
+  "exclude": ["node_modules", "lib", "**/*.spec.ts"]
 }
