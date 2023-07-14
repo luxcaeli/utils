@@ -4,6 +4,19 @@
   "main": "lib/cjs/index.js",
   "author": "vsnm25 <vsnm25@gmail.com> (https://github.com/vsnm25)",
   "license": "MIT",
+  "description": "Typescript, Javascript utility collections",
+  "homepage": "https://github.com/vsnm25/skylight-utils",
+  "bugs": {
+    "url": "https://github.com/vsnm25/skylight-utils/issues"
+  },
+  "keywords": [
+    "typescript",
+    "javascript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vsnm25/skylight-utils.git"
+  },
   "files": [
     "lib"
   ],
