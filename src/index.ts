@@ -1,2 +1,2 @@
-export * from "./betweenMinMax";
 export * from "./hexToRgba";
+export * from "./minMaxBetween";

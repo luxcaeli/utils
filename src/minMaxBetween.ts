@@ -1,17 +1,15 @@
-interface BetweenMinMaxParameters {
-  max: number;
-  min: number;
-  value: number;
-}
-
 /**
  * Callback return number between min and max number.
- * @param param.min - minimum number
- * @param param.max - maximum number
- * @param param.value - compared number
+ * @param value - compared number
+ * @param max - maximum number
+ * @param min - minimum number
+ * @example
+ * ```typescript
+ * const userPoint = minMaxBetween(150, 0, 100); // 150
+ * ```
  * @returns number between min and max.
  */
-export const betweenMinMax = ({ max, min, value }: BetweenMinMaxParameters) => {
+export const minMaxBetween = (value: number, min: number, max: number) => {
   if ([max, min, value].some((num) => Number.isNaN(num))) {
     throw new Error(
       `You should only assign values that are numeric: [max: ${max}, min: ${min}, value: ${value}]`
