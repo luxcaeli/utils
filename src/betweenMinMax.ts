@@ -12,7 +12,17 @@ interface BetweenMinMaxParameters {
  * @returns number between min and max.
  */
 export const betweenMinMax = ({ max, min, value }: BetweenMinMaxParameters) => {
-  if (value < min) return min;
-  if (value > max) return max;
-  return value;
+  if ([max, min, value].some((num) => Number.isNaN(num))) {
+    throw new Error(
+      `You should only assign values that are numeric: [max: ${max}, min: ${min}, value: ${value}]`
+    );
+  }
+
+  if (min > max) {
+    throw new Error(
+      `Maximum value must always be greater than the minimum value: [max: ${max}, min: ${min}, value: ${value}]`
+    );
+  }
+
+  return Math.min(Math.max(value, min), max);
 };
