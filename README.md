@@ -16,5 +16,5 @@ yarn add skylight-utils
 
 
 ## API Documentation
-You can check entire api documentation in [here](https://github.com/vsnm25/skylight-utils/blob/main/README_API_DOCUMENTATION.md)
+You can check entire api documentation in [here](https://github.com/vsnm25/skylight-utils/blob/main/README_API.md)
 
