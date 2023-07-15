@@ -3,7 +3,6 @@
     "declaration": true,
     "emitDeclarationOnly": true,
     "esModuleInterop": true,
-    "jsx": "react-jsx",
     "lib": ["DOM", "ESNext"],
     "module": "ESNext",
     "moduleResolution": "Node",
@@ -13,6 +12,10 @@
     "target": "ES5",
     "baseUrl": "."
   },
-  "include": ["src", "rollup.config.mjs", "jest.config.js"],
-  "exclude": ["node_modules", "lib", "**/*.spec.ts"]
+  "ts-node": {
+    "compilerOptions": {
+      "module": "commonjs"
+    }
+  },
+  "exclude": ["node_modules", "lib"]
 }
