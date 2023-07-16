@@ -1,13 +1,12 @@
 import babel from "@rollup/plugin-babel";
+import commonjs from "@rollup/plugin-commonjs";
 import resolve from "@rollup/plugin-node-resolve";
+import rollup from "rollup";
 
 const extensions = [".js", ".ts"];
 
-/**
- * @type {import('rollup').RollupOptions}
- */
-const rollupConfig = {
-  external: [/node_modules/],
+export default rollup.defineConfig({
+  external: /node_modules/,
   input: "src/index.ts",
   output: [
     {
@@ -24,6 +23,7 @@ const rollupConfig = {
   ],
   plugins: [
     resolve({ extensions }),
+    commonjs(),
     babel({
       babelHelpers: "runtime",
       extensions,
@@ -31,6 +31,4 @@ const rollupConfig = {
       presets: ["@babel/preset-env", "@babel/preset-typescript"],
     }),
   ],
-};
-
-export default rollupConfig;
+});
