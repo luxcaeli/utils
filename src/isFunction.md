@@ -1,9 +1,7 @@
-## minMaxBetween
+## isFunction
 Check whether value is classified as a function object.
 ```typescript
-if(isFunction(onClick)){
-    onClick(event);
-}
+function isFunction(value: unknown): boolean;
 ```
 
 ## Usage

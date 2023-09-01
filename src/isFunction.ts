@@ -2,7 +2,7 @@
  * Check whether value is classified as a function object.
  *
  * @param value
- * Any type of value which need to be checked as function object.
+ * The value which needs to be checked.
  *
  * @example
  * ```typescript
@@ -10,6 +10,8 @@
  *  onClick(event);
  * }
  * ```
+ *
+ * @returns boolean value whether type is function object or not.
  */
 export const isFunction = (value: unknown) => {
   return typeof value === "function";
