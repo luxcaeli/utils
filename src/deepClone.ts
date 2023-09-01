@@ -10,7 +10,9 @@ type DeepCloneable = Record<string, any>;
  *
  * @example
  * ```typescript
- * const
+ * const originManky = { manky: { banana: 1 } };
+ * const deepCopiedManky = deepClone(originManky);
+ * console.log(originManky.manky === deepCopiedManky.manky); // false
  * ```
  */
 export const deepClone = <T>(value: T): T => {
