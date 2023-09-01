@@ -9,7 +9,8 @@ const HEX_CODE_LENGTH = 7;
  *
  * @param color
  * The string value of hex color
- * @param alpha - The number value of opacity
+ * @param alpha
+ * The number value of opacity
  * @example
  * ```typescript
  * const rgbaColor = hexToRgba('#000', 0.5);

@@ -1,8 +1,11 @@
 /**
  * Callback return number between min and max number.
- * @param value - compared number
- * @param min - minimum number
- * @param max - maximum number
+ * @param value
+ * compared number
+ * @param min
+ * minimum number
+ * @param max
+ * maximum number
  * @example
  * ```typescript
  * const userPoint = minMaxBetween(150, 0, 100); // 100
