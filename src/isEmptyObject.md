@@ -6,7 +6,7 @@ function isEmptyObject(value: unknown): boolean;
 
 ## Usage
 ```typescript
-if(isEmptyObject(value)){
-    deepClone(value); // value is not empty object
-}
+import { isEmptyObject } from 'skylight-utils';
+
+console.log(isEmptyObject({})); // true
 ```
