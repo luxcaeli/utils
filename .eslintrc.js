@@ -16,9 +16,5 @@ module.exports = {
       files: ["src/*.spec.ts"],
       plugins: ["jest"],
     }
-  ],
-  rules: {
-    "import/prefer-default-export": "off",
-    "import/no-extraneous-dependencies": "off"
-  },
+  ]
 };
