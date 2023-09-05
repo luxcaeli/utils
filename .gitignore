@@ -3,6 +3,7 @@ node_modules
 
 # ouput
 lib
+coverage
 
 # debug
 npm-debug.log*
