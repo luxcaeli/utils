@@ -1,6 +1,6 @@
 {
   "name": "skylight-utils",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "main": "lib/cjs/index.js",
   "module": "lib/esm/index.js",
   "author": "vsnm25 <vsnm25@gmail.com> (https://github.com/vsnm25)",
