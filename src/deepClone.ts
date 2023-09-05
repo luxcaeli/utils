@@ -25,13 +25,10 @@ export const deepClone = <T>(value: T): T => {
   }
 
   const clone = (Array.isArray(value) ? [] : {}) as DeepCloneable;
-  const currentValue = value as DeepCloneable;
 
-  Object.keys(currentValue).forEach((key) => {
-    clone[key] =
-      typeof currentValue[key] === "object"
-        ? deepClone(currentValue[key])
-        : currentValue[key];
+  Object.entries(value).forEach(([nestedKey, nestedValue]) => {
+    clone[nestedKey] =
+      typeof nestedValue === "object" ? deepClone(nestedValue) : nestedValue;
   });
 
   return clone as T;
