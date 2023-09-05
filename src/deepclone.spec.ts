@@ -18,4 +18,9 @@ describe("deepClone", () => {
     expect(mankyList[0]).toBe(shallowCopiedMankyList[0]);
     expect(mankyList[0]).not.toBe(deepCopiedMankyList[0]);
   });
+
+  test("primitive type or null value", () => {
+    expect(deepClone(null)).toEqual(null);
+    expect(deepClone(1)).toEqual(1);
+  });
 });
