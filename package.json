@@ -6,9 +6,9 @@
   "author": "vsnm25 <vsnm25@gmail.com> (https://github.com/vsnm25)",
   "license": "MIT",
   "description": "Typescript, Javascript utility collection",
-  "homepage": "https://github.com/vsnm25/skylight-utils",
+  "homepage": "https://github.com/vsnm25/utils",
   "bugs": {
-    "url": "https://github.com/vsnm25/skylight-utils/issues"
+    "url": "https://github.com/vsnm25/utils/issues"
   },
   "keywords": [
     "typescript",

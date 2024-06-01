@@ -7,7 +7,7 @@ function deepClone<T>(value: T): T;
 
 ## Usage
 ```typescript
-import { deepClone } from 'skylight-utils';
+import { deepClone } from '@puresky/utils';
 
 const originManky = { manky: { banana: 1 } };
 const deepCopiedManky = deepClone(originManky);

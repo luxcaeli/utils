@@ -1,4 +1,4 @@
-name: skylight-utils tests
+name: utils tests
 
 on:
   push:
