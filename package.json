@@ -1,6 +1,6 @@
 {
-  "name": "skylight-utils",
-  "version": "0.2.0",
+  "name": "@puresky/utils",
+  "version": "0.0.1",
   "main": "lib/cjs/index.js",
   "module": "lib/esm/index.js",
   "author": "vsnm25 <vsnm25@gmail.com> (https://github.com/vsnm25)",
@@ -14,10 +14,6 @@
     "typescript",
     "javascript"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/vsnm25/skylight-utils.git"
-  },
   "files": [
     "lib"
   ],
