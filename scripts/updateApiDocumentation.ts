@@ -22,7 +22,7 @@ const updateApiDocumentation = async () => {
     for (let i = 0; i < utilityReadmeList.length; i += 1) {
       const utilityReadme = utilityReadmeList[i];
       const utilityName = utilityReadme.split(".md")[0];
-      API_DOCUMENTATION_TEMPLATE += `| ${utilityName} | [${utilityReadme}](https://github.com/vsnm25/utils/blob/main/src/${utilityReadme}) | \n`;
+      API_DOCUMENTATION_TEMPLATE += `| ${utilityName} | [${utilityReadme}](https://github.com/luxcaeli/utils/blob/main/src/${utilityReadme}) | \n`;
     }
     fs.writeFile("README_API.md", API_DOCUMENTATION_TEMPLATE);
   } catch (err) {

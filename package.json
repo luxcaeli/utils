@@ -1,14 +1,14 @@
 {
-  "name": "@puresky/utils",
+  "name": "@luxcaeli/utils",
   "version": "1.0.0",
   "main": "lib/cjs/index.js",
   "module": "lib/esm/index.js",
-  "author": "vsnm25 <vsnm25@gmail.com> (https://github.com/vsnm25)",
+  "author": "luxcaeli <vsnm25@gmail.com> (https://github.com/luxcaeli)",
   "license": "MIT",
   "description": "Typescript, Javascript utility collection",
-  "homepage": "https://github.com/vsnm25/utils",
+  "homepage": "https://github.com/luxcaeli/utils",
   "bugs": {
-    "url": "https://github.com/vsnm25/utils/issues"
+    "url": "https://github.com/luxcaeli/utils/issues"
   },
   "keywords": [
     "typescript",

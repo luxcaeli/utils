@@ -6,7 +6,7 @@ function isEmptyObject(value: unknown): boolean;
 
 ## Usage
 ```typescript
-import { isEmptyObject } from '@puresky/utils';
+import { isEmptyObject } from '@luxcaeli/utils';
 
 console.log(isEmptyObject({})); // true
 ```
